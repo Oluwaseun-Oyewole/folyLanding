@@ -1,0 +1,39 @@
+@media screen and (max-width: 800px) {
+  .testimonial {
+    padding-top: 2rem;
+  }
+
+  .grid {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .testimonial-card {
+    max-width: 800px;
+    width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-family: "Poppins", sans-serif;
+    padding: 1.8rem;
+  }
+
+  .testimonial-card:first-child::before {
+    top: -18%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .grid {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+}
