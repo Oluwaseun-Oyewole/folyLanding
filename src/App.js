@@ -1,4 +1,4 @@
-import { Navbar, Purpose, Product, Testimony } from "./components";
+import { Navbar, Purpose, Product, Testimony, Cta, Footer } from "./components";
 import { Header } from "./container";
 import "./App.css";
 
@@ -11,6 +11,8 @@ const App = () => {
         <Purpose />
         <Product />
         <Testimony />
+        <Cta />
+        <Footer />
       </div>
     </div>
   );

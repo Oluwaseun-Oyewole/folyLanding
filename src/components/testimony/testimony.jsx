@@ -6,11 +6,11 @@ import "./MobileTest.css";
 
 const Testimony = () => {
   return (
-    <section class="testimonial">
+    <section class="fylo__testimony">
       <div class="container">
-        <div class="testimonial-cards grid">
+        <div class="fylo__testimony-cards grid">
           <div
-            class="testimonial-card card"
+            class="fylo__testimony-card card"
             data-aos="fade-left"
             data-aos-delay="100"
             data-aos-duration="1000"
@@ -30,7 +30,7 @@ const Testimony = () => {
           </div>
 
           <div
-            class="testimonial-card card"
+            class="fylo__testimony-card card"
             data-aos="fade-right"
             data-aos-delay="100"
             data-aos-duration="1000"
@@ -50,7 +50,7 @@ const Testimony = () => {
           </div>
 
           <div
-            class="testimonial-card card"
+            class="fylo__testimony-card card"
             data-aos="fade-left"
             data-aos-delay="100"
             data-aos-duration="1000"

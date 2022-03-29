@@ -28,7 +28,14 @@ const Header = () => {
             Access them wherever you need, share and collaborate with friends
             family, and co-workers.
           </p>
-          <button class="btn">Get Started</button>
+          <button
+            class="btn"
+            data-aos="fade-in"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+          >
+            Get Started
+          </button>
         </div>
       </div>
     </div>

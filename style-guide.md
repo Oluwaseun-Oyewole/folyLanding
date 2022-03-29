@@ -18,8 +18,8 @@ The designs were created to the following widths:
 
 ### Accent
 
-- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
-- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
+- Cyan (inside cta gradient): hsl(176, 68%, 64%)
+- Blue (inside cta gradient): hsl(198, 60%, 50%)
 - Light Red (error): hsl(0, 100%, 63%)
 
 ### Neutral
@@ -32,7 +32,7 @@ The designs were created to the following widths:
 
 - Font size: 14px
 
-### Headings, Call-to-actions, Header Navigation
+### Headings, ctas, Header Navigation
 
 - Family: [Raleway](https://fonts.google.com/specimen/Raleway)
 - Weights: 400, 700

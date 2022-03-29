@@ -5,7 +5,15 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
 
-  z-index: 2;
+  /* z-index: 2; */
+}
+
+.card:hover {
+  cursor: pointer;
+  transition: all 500ms ease-in-out;
+  transform: scale(1.5);
+  z-index: 999;
+  transform: rotate(360deg) !important;
 }
 
 .container {
@@ -13,13 +21,17 @@
   margin: 0 auto;
 }
 
-.testimonial {
+.fylo__testimony-cards {
+  padding-top: 5rem;
+}
+
+.fylo__testimony {
   background-color: var(--dark-blue-2);
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
-.testimonial-card {
+.fylo__testimony-card {
   max-width: 350px;
   font-family: "Raleway", sans-serif;
   font-family: "Poppins", sans-serif;
@@ -31,11 +43,11 @@
   gap: 2rem;
 }
 
-.testimonial-card:first-child {
+.fylo__testimony-card:first-child {
   position: relative;
 }
 
-.testimonial-card:first-child::before {
+.fylo__testimony-card:first-child::before {
   content: " ";
   height: 38px;
   width: 53px;
@@ -45,28 +57,28 @@
   top: -19%;
   left: -2%;
 }
-.testimonial-card .user {
+.fylo__testimony-card .user {
   display: flex;
   align-items: center;
   justify-content: start;
   padding: 20px 0 10px 0;
 }
-.testimonial-card .user img {
+.fylo__testimony-card .user img {
   width: 25px;
   height: 25px;
   border-radius: 50%;
   margin-right: 10px;
 }
-.testimonial-card .user .user-info h4 {
+.fylo__testimony-card .user .user-info h4 {
   font-size: 11px;
 }
 
-.testimonial-card p {
+.fylo__testimony-card p {
   font-size: 12px;
   line-height: 1.7;
 }
 
-.testimonial-card .user .user-info p.title {
+.fylo__testimony-card .user .user-info p.title {
   margin: 0;
   font-size: 10px;
 }
